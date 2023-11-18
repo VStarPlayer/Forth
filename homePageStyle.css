@@ -51,4 +51,11 @@ body {
 h2{
     text-align: center;
 }
-
+.logo{
+    width: 35px;
+    height:35px;
+    margin-left:2%
+}
+.projectName{
+    font-size:100px;
+}
