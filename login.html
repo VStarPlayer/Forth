@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="loginStyle.css" rel="stylesheet" type="text/css">
+    <script defer src="register.js"></script>
+</head>
+<body>
+    <div id="error"></div>
+    <form action="/headerimg.jpg" method="GET" id="form" class="form">
+            <div class="email">
+                <label for="email"><h3 style="font-family: Georgia;">Email</h3></label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="username">
+                <label for="username"><h3 style="font-family: Georgia;">Username</h3></label>
+                <input type="text" id="username" name="username" required>
+            </div> 
+            <div class="password">
+                <label for="password"><h3 style="font-family: Georgia;">Password</h3></label>
+                <input type="text" id="password" name="password" required>
+            </div>
+            <fieldset>
+                <legend style="font-family: Georgia;">Select your pronouns:</legend>
+              
+                <div>
+                  <input type="radio" id="huey" name="drone" value="huey" checked/>
+                  <label for="huey" style="font-family: Georgia;">He/Him</label>
+                </div>
+              
+                <div>
+                  <input type="radio" id="dewey" name="drone" value="dewey" />
+                  <label for="dewey" style="font-family: Georgia;">She/Her</label>
+                </div>
+              
+                <div>
+                  <input type="radio" id="louie" name="drone" value="louie" />
+                  <label for="louie" style="font-family: Georgia;">They/Them</label>
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend style="font-family: Georgia;">Select Neurodivergencies</legend>
+                <div><input type="checkbox" id = "bipolar" name="bipolad" value="bipolarDisorder"/>
+                    <label for="bipolar" style="font-family: Georgia;">Bipolar Disorder</label>
+                </div>
+                <div><input type="checkbox" id = "bipolar" name="bipolad" value="bipolarDisorder"/>
+                    <label for="bipolar" style="font-family: Georgia;">Schizophrenia</label></div>
+                <div><input type="checkbox" id = "bipolar" name="bipolad" value="bipolarDisorder"/>
+                    <label for="bipolar" style="font-family: Georgia;">Schizoid Personality Disorder</label></div>
+                <div><input type="checkbox" id = "bipolar" name="bipolad" value="bipolarDisorder"/>
+                    <label for="bipolar" style="font-family: Georgia;">Autism Spectrum Disorder</label></div>
+                <div><input type="checkbox" id = "bipolar" name="bipolad" value="bipolarDisorder"/>
+                    <label for="bipolar" style="font-family: Georgia;">Attention Deficit Disorder</label></div>
+                <div><input type="checkbox" id = "bipolar" name="bipolad" value="bipolarDisorder"/>
+                    <label for="bipolar" style="font-family: Georgia;">Borderline Personality Disorder</label></div>
+                <div><input type="checkbox" id = "bipolar" name="bipolad" value="bipolarDisorder"/>
+                    <label for="bipolar" style="font-family: Georgia;">Dissociative Identity Disorder</label></div>
+                <div><input type="checkbox" id = "bipolar" name="bipolad" value="bipolarDisorder"/>
+                    <label for="bipolar" style="font-family: Georgia;">Obsessive-Compulsive Disorder</label></div>
+                <div><input type="checkbox" id = "bipolar" name="bipolad" value="bipolarDisorder"/>
+                    <label for="bipolar" style="font-family: Georgia;">Eating Disorders</label></div>
+                <div><input type="checkbox" id = "bipolar" name="bipolad" value="bipolarDisorder"/>
+                    <label for="bipolar" style="font-family: Georgia;">PTSD</label></div>
+                <div><input type="checkbox" id = "bipolar" name="bipolad" value="bipolarDisorder"/>
+                    <label for="bipolar" style="font-family: Georgia;">CPTSD</label></div>
+                <div><input type="checkbox" id = "bipolar" name="bipolad" value="bipolarDisorder"/>
+                    <label for="bipolar" style="font-family: Georgia;">Anxiety Disorder</label></div>
+              </fieldset>
+            <p  style="font-family: Georgia;">If you already have an account <a href="#">press here</a></p>
+            <button type="submit" class="registerButton">Register</button>
+    </form>
+</body>
+</html>
