@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <link href="sign-inStyle.css" rel="stylesheet" type="text/css">
+    <script defer src="sign-in.js"></script>
+</head>
+<body>
+    <div id="error"></div>
+    <form action="/headerimg.jpg" method="GET" id="form" class="form">
+            <div class="email">
+                <label for="email"><h3 style="font-family: Georgia;">Email</h3></label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="password">
+                <label for="password"><h3 style="font-family: Georgia;">Password</h3></label>
+                <input type="text" id="password" name="password" required>
+            </div>
+            <p  style="font-family: Georgia;">If you don't have an account <a href="login.html">press here</a></p>
+            <p  style="font-family: Georgia;"><a href="login.html">I forgot my password!</a></p>
+            <button type="submit" class="registerButton">Sign-in</button>
+    </form>
+</body>
+</html>
