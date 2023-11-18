@@ -7,7 +7,7 @@ const errorElement = document.getElementById("error");
 form.addEventListener('submit' , (e) =>{
 let messages = [];
 if(passwordText.value.length < 6)
-    messages.push("Password is to short");
+    window.alert("the passwords don't match!!")
 
 if(messages.length > 0)
 {
